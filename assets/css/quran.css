@@ -1,0 +1,364 @@
+/* Quran Page Styles - Enhanced */
+:root {
+    --primary-color: #2b8a3e;
+    --secondary-color: #40c057;
+    --accent-color: #fcc419;
+    --dark-color: #2b2d42;
+    --light-color: #f8f9fa;
+    --shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --transition: all 0.3s ease;
+}
+
+.quran-container {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    background: white;
+    border-radius: 50px;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-icon {
+    margin: 0 1rem;
+    color: var(--primary-color);
+}
+
+.filter-options {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #e9ecef;
+    color: var(--dark-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem;
+}
+
+.filter-btn.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+.filter-btn:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.surah-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.surah-card {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    display: flex;
+    border-left: 4px solid var(--primary-color);
+}
+
+.surah-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.surah-link {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    flex: 1;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.surah-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-right: 1.2rem;
+    background: #ebfbee;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.surah-card:hover .surah-number {
+    transform: scale(1.1);
+    background: var(--primary-color);
+    color: white;
+}
+
+.surah-details {
+    flex: 1;
+}
+
+.surah-card h3 {
+    margin: 0 0 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.surah-meta {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin: 0.3rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.surah-name-arabic {
+    font-family: 'Amiri Quran', 'Traditional Arabic', serif;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    text-align: right;
+    color: var(--dark-color);
+    line-height: 1.4;
+}
+
+.surah-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-left: 1px solid #eee;
+}
+
+.play-btn, .bookmark-btn {
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.bookmark-btn:hover {
+    color: var(--accent-color);
+}
+
+.surah-hover-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(43, 138, 62, 0.9);
+    color: white;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: var(--transition);
+    opacity: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.surah-card:hover .surah-hover-content {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Floating Player */
+.floating-player {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.15);
+    border-radius: 15px 15px 0 0;
+    padding: 1rem;
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+.floating-player.active {
+    bottom: 0;
+}
+
+.player-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-info {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.player-info h4 {
+    margin: 0 0 0.2rem;
+    color: var(--dark-color);
+}
+
+.player-info p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.player-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.player-controls button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-controls button:hover {
+    background: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+#player-close {
+    background: transparent;
+    color: #6c757d;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6c757d;
+}
+
+.juz-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.juz-btn {
+    padding: 0.8rem;
+    background: #e9ecef;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.juz-btn:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .surah-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    
+    .search-container {
+        flex-direction: column;
+        border-radius: 12px;
+    }
+    
+    .filter-options {
+        padding: 0.5rem;
+    }
+    
+    .surah-card {
+        flex-direction: column;
+    }
+    
+    .surah-actions {
+        flex-direction: row;
+        border-left: none;
+        border-top: 1px solid #eee;
+    }
+}

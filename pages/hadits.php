@@ -11,8 +11,8 @@ $available_books = [
     'muslim' => ['name' => 'Shahih Muslim', 'total' => 5362],
     'tirmidzi' => ['name' => 'Sunan Tirmidzi', 'total' => 3956],
     'nasai' => ['name' => 'Sunan Nasai', 'total' => 5762],
-    'abudaud' => ['name' => 'Sunan Abu Daud', 'total' => 4590],
-    'ibnumajah' => ['name' => 'Sunan Ibnu Majah', 'total' => 4341]
+    // 'abudaud' => ['name' => 'Sunan Abu Daud', 'total' => 4590],
+    // 'ibnumajah' => ['name' => 'Sunan Ibnu Majah', 'total' => 4341]
 ];
 
 // Get parameters
@@ -55,7 +55,7 @@ $hadith_data = fetchHadiths($selected_book, $current_page, $hadith_per_page);
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Etrain</title>
+    <title>Al-Huda</title>
     <link rel="icon" href="../assets/img/logoislam.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">

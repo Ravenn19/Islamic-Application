@@ -10,52 +10,102 @@ $articles = [
         'title' => 'Teknologi Blockchain dalam Ekonomi Syariah',
         'excerpt' => 'Bagaimana teknologi blockchain dapat merevolusi sistem keuangan Islam dengan transparansi dan keadilan...',
         'content' => '<p>Blockchain menawarkan solusi sempurna untuk prinsip-prinsip ekonomi syariah. Teknologi ini memungkinkan:</p>
-                     <ul>
+                    <ul>
                         <li>Transaksi tanpa riba</li>
                         <li>Pelacakan aset yang transparan</li>
                         <li>Kontrak pintar (smart contract) sesuai syariah</li>
-                     </ul>
-                     <p>Dengan decentralized finance (DeFi) berbasis syariah, umat Islam dapat berpartisipasi dalam ekonomi digital tanpa melanggar prinsip agama.</p>',
+                    </ul>
+                    <p>Pengaturan Hukum Transaksi Mata Uang Kripto di Indonesia (Studi Komparasi Hukum Positif dan Keputusan Fatwa MUI). Program Studi Hukum Ekonomi Syariah, Fakultas Syariah dan Hukum, Universitas Islam Negeri Syarif Hidayatullah Jakarta, 1444 H/2023 M</p>
+                    <a href="https://jurnal.penerbitdaarulhuda.my.id/index.php/MAJIM/article/view/3815" class="read-more">Read More</a>',
         'category' => 'Teknologi Islam',
-        'author' => 'Dr. Ahmad Zaki',
+        'author' => 'Ahmad Muhajir, Mukhtar Lutfi, Misbahuddin M, Abdul Wahid Haddade, Abd Syatar',
         'date' => '15 Juni 2023',
         'views' => 1245,
-        'image' => '../assets/img/blockchain.jpg',
-        'tags' => ['Fintech', 'Ekonomi Syariah', 'Blockchain']
+        'image' => '../assets/img/gambar1.jpg',
+        'tags' => ['Fintech', 'Ekonomi Syariah', 'Blockchain'],
+        'read_more_link' => 'https://jurnal.penerbitdaarulhuda.my.id/index.php/MAJIM/article/view/3815'
     ],
     [
         'id' => 2,
         'title' => 'Kecerdasan Buatan dalam Memahami Hadis',
         'excerpt' => 'Eksplorasi penggunaan AI untuk analisis matan hadis dan verifikasi kesahihan...',
-        'content' => '<p>AI dapat membantu:</p>
-                     <ol>
+        'content' => '<p>Walaupun kecerdasan buatan memberikan ancaman, namun juga memberikan pandangan baru terhadap dunia Islam. Salah satu Artificial Intelligence yang popular di bidang studi hadis.</p>
+                    <p>AI dapat membantu:</p>
+                    <ol>
                         <li>Klasifikasi otomatis matan hadis</li>
                         <li>Analisis jaringan periwayatan (isnad)</li>
                         <li>Deteksi hadis palsu dengan machine learning</li>
-                     </ol>
-                     <p>Dengan dataset yang tepat, model NLP dapat mencapai akurasi 92% dalam mengklasifikasikan kesahihan hadis.</p>',
+                    </ol>
+                    <p>Dengan dataset yang tepat, model NLP dapat mencapai akurasi 92% dalam mengklasifikasikan kesahihan hadis.</p>
+                    <a href="https://digilib.uin-suka.ac.id/id/eprint/67546/1/22205031057_BAB-I_IV-atau-V_DAFTAR-PUSTAKA.pdf" class="read-more">Read More</a>',
         'category' => 'Studi Hadis',
-        'author' => 'Prof. Fatima Al-Muhammadi',
+        'author' => 'Tazkia Anugraheni Perdana, S.Ag.',
         'date' => '22 Mei 2023',
         'views' => 1893,
-        'image' => '../assets/img/ai.jpg',
-        'tags' => ['AI', 'Hadis', 'Machine Learning']
+        'image' => '../assets/img/gambar2.jpg',
+        'tags' => ['AI', 'Hadis', 'Machine Learning'],
+        'read_more_link' => 'https://digilib.uin-suka.ac.id/id/eprint/67546/1/22205031057_BAB-I_IV-atau-V_DAFTAR-PUSTAKA.pdf'
     ],
-    // Add 8 more articles in similar format
     [
         'id' => 3,
-        'title' => 'Arsitektur Masjid Futuristik 2030',
-        'excerpt' => 'Desain masjid generasi berikutnya dengan integrasi teknologi hijau dan digital...',
-        'content' => '...',
-        'category' => 'Arsitektur Islam',
-        'author' => 'Arsitek Malik Ibrahim',
-        'date' => '10 April 2023',
-        'views' => 982,
-        'image' => '../assets/img/masjid.jpg',
-        'tags' => ['Arsitektur', 'Teknologi', 'Masjid']
+        'title' => 'Sustainable Energi dalam Pandangan Islam',
+        'excerpt' => 'Hadis Nabi tentang kerjasama muslim dalam tiga hal yaitu padang rumput, air dan api merupakan isyarat akan pentingnya menjaga ketiga sumber daya alam tersebut...',
+        'content' => '<p>Penelitian ini mengkaji konsep energi berkelanjutan dalam perspektif Islam dengan fokus pada:</p>
+                    <ul>
+                        <li>Interpretasi hadis Nabi tentang pengelolaan sumber daya alam</li>
+                        <li>Krisis energi fosil dan solusi Islami</li>
+                        <li>Potensi energi terbarukan dalam pandangan Al-Qur\'an</li>
+                    </ul>
+                    <p>Studi menekankan pentingnya pola perilaku hemat energi dan pengelolaan yang efektif untuk mewujudkan sustainable energy sesuai prinsip Islam.</p>
+                    <a href="https://journal.uin-alauddin.ac.id/index.php/tahdis/article/view/13626" class="read-more">Baca Artikel Lengkap</a>',
+        'category' => 'Studi Hadis',
+        'author' => 'Kaslam Kaslam',
+        'date' => '30 Juli 2020',
+        'views' => 342,
+        'image' => '../assets/img/gambar3.jpg',
+        'tags' => ['Energi Terbarukan', 'Fiqh Lingkungan', 'Hadis Ekologis'],
+        'read_more_link' => 'https://journal.uin-alauddin.ac.id/index.php/tahdis/article/view/13626'
     ],
-    // Continue with 7 more articles...
+    
+    [
+        'id' => 4,
+        'title' => 'Kajian Literatur Konsep Islam Mengenai Energi Dan Sumber Daya Mineral di Indonesia',
+        'excerpt' => 'Penelitian ini mengkaji konsep Islam tentang energi dan sumber daya mineral melalui analisis literatur...',
+        'content' => '<p>Menurut Islam, energi dan sumber daya mineral merupakan titipan Allah yang harus dikelola dengan baik. Penelitian ini menganalisis:</p>
+                    <ol>
+                        <li>Konsep kepemilikan dalam Islam (individu, umum, dan negara)</li>
+                        <li>Pengelolaan sumber daya mineral menurut UU Pertambangan Indonesia</li>
+                        <li>Prinsip keadilan dan keberlanjutan dalam pemanfaatan sumber daya</li>
+                    </ol>
+                    <p>Hasil penelitian menunjukkan keselarasan antara konsep Islam dengan pengelolaan SDA di Indonesia yang dikuasai negara untuk kemakmuran rakyat.</p>
+                    <a href="https://feb.untan.ac.id/wp-content/uploads/2023/11/48.pdf" class="read-more">Read More</a>',
+        'category' => 'Ekonomi Islam',
+        'author' => 'Utari Pradini, Sisi Amalia',
+        'date' => '2023-11-01',
+        'views' => 215,
+        'image' => '../assets/img/gambar4.jpg',
+        'tags' => ['Energi', 'Sumber Daya Mineral', 'Fiqh Muamalah'],
+        'read_more_link' => 'https://feb.untan.ac.id/wp-content/uploads/2023/11/48.pdf'
+    ],
+
+    [
+        'id' => 5,
+        'title' => 'Inklusi Teologi: Antara Agama dan Teknologi dalam Perspektif Naquib Al-Attas',
+        'excerpt' => 'The relationship between religion and technology is an important topic in the study of religion and technological development...',
+        'content' => '<p>Nauqib Al-Attas, seorang ilmuwan Muslim, memberikan perspektif unik tentang relasi agama dan teknologi. Beliau menyadari bahwa teknologi dapat mempermudah ibadah dan penyebaran pesan agama, namun juga dapat berdampak negatif pada nilai moral dan spiritual.</p>
+                    <p>Teknologi dapat menjadi alat yang berguna untuk memperkuat praktik keagamaan dan meningkatkan kualitas hidup, asalkan digunakan secara bijak dan tidak melanggar prinsip-prinsip agama.</p>
+                    <a href="https://journal.unugiri.ac.id/index.php/AL-AUFA/article/view/1790" class="read-more">Read More</a>',
+        'category' => 'Studi Islam',
+        'author' => 'Septy Oktavia, Diva Try Syafrielia, Khoirun Nisa Alhabibah, Lisa Qotrun Nandini',
+        'date' => '22 Juni 2023',
+        'views' => 663,
+        'image' => '../assets/img/gambar5.jpg',
+        'tags' => ['Teologi', 'Teknologi', 'Naquib Al-Attas'],
+        'read_more_link' => 'https://journal.unugiri.ac.id/index.php/AL-AUFA/article/view/1790'
+    ],
+    
 ];
+
 
 $featured_articles = array_slice($articles, 0, 3);
 $popular_articles = array_slice($articles, 3, 3);
@@ -70,7 +120,7 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Etrain</title>
+    <title>Al-Huda</title>
     <link rel="icon" href="../assets/img/logoislam.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -96,6 +146,16 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
+
+        .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 540px;
+        height: 4px;
+        background: linear-gradient(90deg, var(--gold), var(--islamic-green));
+        }
 
         .nav-link {
         color: white;
@@ -856,15 +916,14 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
                             </p>
                             <div style="position: relative; max-width: 400px; margin: 0 auto;">
                             <i class="fas fa-search" style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #666;"></i>
-                            <input type="text" placeholder="Cari artikel..." style="width: 100%; padding: 12px 16px 12px 40px; border: none; border-radius: 30px; font-size: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.1); outline: none;">
+                            <input type="text" id="searchInput" placeholder="Cari artikel..."  style="width: 100%; padding: 12px 16px 12px 40px; border: none; border-radius: 30px; font-size: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.1); outline: none;">
                             </div>
                         </div>
                     </section>
 
-
                     <!-- Featured Articles -->
                     <section style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-                        <h2 class="section-title">Artikel Unggulan</h2>
+                        <h2 class="section-title">Artikel Teknologi & Energi Islamic</h2>
                         <div class="articles-grid" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
                             <?php foreach ($featured_articles as $article): ?>
                                 <article class="article-card featured-article" onclick="openArticleModal(<?= $article['id'] ?>)">
@@ -940,7 +999,7 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
                     </section>
 
                     <!-- Latest Articles -->
-                    <section>
+                    <!-- <section>
                         <h2 class="section-title">Terbaru</h2>
                         <div class="articles-grid">
                             <?php foreach ($latest_articles as $article): ?>
@@ -962,9 +1021,11 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
                                 </article>
                             <?php endforeach; ?>
                         </div>
-                    </section>
+                    </section> -->
 
-                    <button class="load-more">Muat Lebih Banyak</button>
+                    <button type="button" class="load-more" onclick="window.location.href='artikel.php'">
+                        Muat Lebih Banyak
+                    </button>
                 </div>
             </main>
 
@@ -1215,6 +1276,70 @@ $categories = ['Teknologi Islam', 'Studi Hadis', 'Arsitektur Islam', 'Fiqih Digi
             this.style.setProperty('--mouse-y', `${y}px`);
         });
     });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    // Ambil input search dan container hasil
+    const searchInput = document.getElementById('searchInput');
+    const articleResults = document.getElementById('articleResults');
+
+    // Fungsi untuk menampilkan artikel
+    function displayArticles(articles) {
+        articleResults.innerHTML = '';
+        
+        if (articles.length === 0) {
+            articleResults.innerHTML = '<p class="no-results">Tidak ada artikel yang ditemukan</p>';
+            return;
+        }
+
+        articles.forEach(article => {
+            const articleCard = document.createElement('div');
+            articleCard.className = 'article-card';
+            articleCard.innerHTML = `
+                <div class="article-header">
+                    <h3>${article.title}</h3>
+                    <p class="author-date">${article.author} • ${article.date}</p>
+                </div>
+                <div class="article-content">
+                    <p class="excerpt">${article.excerpt}</p>
+                    <div class="article-footer">
+                        <span class="category">${article.category}</span>
+                        <a href="${article.read_more_link}" class="read-more">Read More</a>
+                    </div>
+                </div>
+            `;
+            articleResults.appendChild(articleCard);
+        });
+    }
+
+    // Fungsi untuk melakukan pencarian
+    function searchArticles() {
+        const searchTerm = searchInput.value.toLowerCase();
+        
+        // Kirim permintaan AJAX ke server
+        fetch('search.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: `search=${encodeURIComponent(searchTerm)}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            displayArticles(data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    // Event listener untuk input search
+    searchInput.addEventListener('input', searchArticles);
+
+    // Tampilkan semua artikel saat pertama kali load
+    searchArticles();
+});
     </script>
 
 </body>

@@ -131,7 +131,7 @@
         position: absolute;
         bottom: -10px;
         left: 0;
-        width: 270px;
+        width: 520px;
         height: 4px;
         background: linear-gradient(90deg, var(--gold), var(--islamic-green));
     }

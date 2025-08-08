@@ -10,7 +10,7 @@ $surah_list = json_decode(file_get_contents('https://equran.id/api/surat'), true
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Etrain</title>
+    <title>Al-Huda</title>
     <link rel="icon" href="../assets/img/logoislam.png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
